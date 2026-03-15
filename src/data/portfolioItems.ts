@@ -9,6 +9,13 @@ export interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
 	{
+		title: "Aether",
+		src: "aether.png",
+		link: "https://aether-aqi.up.railway.app/",
+		desc: "An Air Quality dashboard built with C# .NET and NextJS that tracks air quality levels spanning thousands of locations across the globe. Features a comprehensive dashboard displaying AQI scores, pollutant breakdowns, and trend indicators for the current location.",
+		isLive: true,
+	},
+	{
 		title: "OneTimePIM",
 		src: "one-time-pim.png",
 		link: "https://onetimepim.com/",

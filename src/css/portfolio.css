@@ -38,16 +38,25 @@
 
 .portfolio__grid__imageContainer {
 	position: relative;
+	height: 100%;
 }
 
 .portfolio__grid__image {
-	max-height: 100%;
-	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	/* object-fit: cover; */
 	border-radius: 0 0 10px 10px;
+	display: block;
 }
 
 .portfolio__grid__image:hover {
 	background-color: #4065a7;
+}
+
+.portfolio__grid__item {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .portfolio__grid__item:hover .portfolio__grid__overlay {
