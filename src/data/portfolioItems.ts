@@ -11,6 +11,7 @@ const portfolioItems: PortfolioItem[] = [
 	{
 		title: "Aether",
 		src: "aether.png",
+		github: "aether",
 		link: "https://aether-aqi.up.railway.app/",
 		desc: "An Air Quality dashboard built with C# .NET and NextJS that tracks air quality levels spanning thousands of locations across the globe. Features a comprehensive dashboard displaying AQI scores, pollutant breakdowns, and trend indicators for the current location.",
 		isLive: true,
